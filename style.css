@@ -10,6 +10,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: black;
 }
 
 h2 {
@@ -23,7 +24,7 @@ h2 {
   margin-bottom: 20px;
   font-family: Times New Roman;
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.3;
   padding: 30px 45px;
   margin-top: 0px;
   text-align: center;
@@ -37,6 +38,23 @@ h2 {
   font-family: Times New Roman;
   padding: 10px 18px;
   margin-bottom: 30px;
+  border: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, rgba(211, 211, 211, 0.6) -0.01%, rgba(211, 211, 211, 0.1) 100%);
+}
+
+.goody {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: Times New Roman;
+  padding: 10px 18px;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  border: 50px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, rgba(211, 211, 211, 0.6) -0.01%, rgba(211, 211, 211, 0.1) 100%);
 }
 
 .goodie {
@@ -44,6 +62,16 @@ h2 {
   font-size: 20px;
   text-align: center;
   padding: 20px 18px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.goodiex {
+  color: lightgray;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 18px;
+  margin-top: -50px;
   margin-bottom: 30px;
 }
 
@@ -52,13 +80,14 @@ button {
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px 18px;
   text-align: center;
   margin: 10px auto;
   display: block;
   color: #333;
-  margin-bottom: 150px;
+  margin-top: 29px;
+  margin-bottom: 5px;
 }
 
 .foot {
@@ -78,6 +107,7 @@ button {
   font-weight: bold;
   color: #333;
   text-decoration: none;
+  margin-bottom: 120px;
 }
 
 .art {
@@ -90,9 +120,10 @@ button {
 }
 
 small {
-  color: lightgray;
+  color: #1f6249;
   display: block;
   text-align: center;
+  font-size: 15px;
 }
 
 .apercu {
@@ -169,13 +200,14 @@ small {
 
 i.fab {
   color: lightgray;   /* couleur WhatsApp */
-  font-size: 40px;   /* taille de l’icône */
+  font-size: 32px;   /* taille de l’icône */
   margin: 35px 10px;    /* espacement horizontal */
+  margin-bottom: -6px;
   cursor: pointer;
 }
 
 .logo-wattpad {
-  width: 50px;
+  width: 45px;
   height: auto;
   transition: transform 0.2s;
   transition: transform 0.3s, color 0.3s;
@@ -227,13 +259,14 @@ i.fab {
 .butom {
   margin-top: 10px;
   width: 90px auto;
-  background: rgba(211, 211, 211, 0.5);
+  background: #1f6249; /** couleur du bouton j'ai payé **/
   border: none;
-  padding: 12px 10px;
+  padding: 18px 16px;
   color: white;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 19px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .tem {
@@ -241,21 +274,24 @@ i.fab {
 }
 
 .arte {
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", sans-serif;
   color: lightgray;
   text-align: center;
   margin: 0;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .artey {
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", sans-serif;
   color: lightgray;
   text-align: center;
-  margin: 5px;
   font-size: 20px;
-  padding: 18px 10px;
+  padding: 20px 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 img {
