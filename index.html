@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personnal blog</title>
+    <title>Bienvenue sur Blog-X</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!---- LIEN DES ICONES ---->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G38NRXMGVQ"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -16,26 +19,82 @@
 
   gtag('config', 'G-G38NRXMGVQ');
 </script>
-    
   </head>
   
   <!-- L'entête de mon blog-->
-  <header>
-    <h2 class="tem">Accueil</h2>
-  </header>
+    <img class="logo" src="logoS.png">
+    <a href="about.html"><i class="fa-solid fa-user"></i></a>
+  
   <body>
     
     <!-- Message de bienvenue -->
     
-    <p class="good">Bienvenue sur mon blog — explorons ensemble le web, la créativité et les idées nouvelles.</p> 
+    <p class="good">Votre dose d'inspiration</p>
+    
+    <!-- Images auto -->
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask.jpg" style="width:100%">
+  <div class="text"><b>Imagination</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask1.jpg" style="width:100%">
+  <div class="text"><b>Lecture</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask2.jpg" style="width:100%">
+  <div class="text"><b>Concentration</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask3.jpg" style="width:100%">
+  <div class="text"><b>Exploration</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask4.jpg" style="width:100%">
+  <div class="text"><b>Futuriste</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask5.jpg" style="width:100%">
+  <div class="text"><b>Créativité</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="text">Notice sur l'IA</div>
+  <img src="ask6.jpg" style="width:100%">
+  <div class="text"><b>Méditation</b></div>
+</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<p class="goody">Plongez dans un univers de récits inspirants pour enrichir votre vie. Notre blog regorge d'histoires et de conseils sur des sujets variés qui éveilleront votre curiosité. Ensemble, partageons des moments d'inspiration pour illuminer votre quotidien.</p>
+    
+    <!-- Bouton de la page suivante -->
+    <a class="lire" href="versions.html"><button>Suivant →</button></a>
+    
     
     <!-- Message de présentation -->
     
     <p class="goodie"><i>“La créativité, c’est l’intelligence qui s’amuse.” — Albert Einstein</i></p>
-    
-    
-    <!-- Bouton de la page suivante -->
-    <a class="lire" href="versions.html"><button>Suivant →</button></a>
     
     <!-- Pied de page -->
     
@@ -49,7 +108,30 @@
 </a>
   </div>
   
-  <p class="foot">Copyright © 2025 My Personal Blog. Créer avec ❤️ Tous droits réservés.</p>
+  <p class="foot">Copyright © 2025 My Personal Blog. Créer avec ❤ Tous droits réservés.</p>
     </footer>
+    
+    
+    <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
   </body>
 </html>

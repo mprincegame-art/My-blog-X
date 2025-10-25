@@ -1,16 +1,16 @@
 header {
-  background: linear-gradient(to bottom, lightgray -0.15%, rgba(211, 211, 211, 0.1) 100%);
+  background: #62d1a6;
   width: 100%;
   border-radius: 25px;
 }
 
 body {
-  background-image: url("https://github.com/mprincegame-art/My-blog-X/raw/16c62946ec04aaed51e013e942e7087d06498fb4/cover1.jpg");
+  background-image: url("coverx.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: black;
+  background-color: white;
 }
 
 h2 {
@@ -28,24 +28,25 @@ h2 {
   padding: 30px 45px;
   margin-top: 0px;
   text-align: center;
-  color: white;
+  color: #333;
 }
 
 .good {
-  color: white;
-  font-size: 30px;
+  color: #333;
+  font-size: 25px;
   text-align: center;
   font-family: Times New Roman;
   padding: 10px 18px;
   margin-bottom: 30px;
   border: 50px;
   border-radius: 25px;
-  background: linear-gradient(to bottom, rgba(211, 211, 211, 0.6) -0.01%, rgba(211, 211, 211, 0.1) 100%);
+  background: #62d1a6;
+  box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
 }
 
 .goody {
-  color: white;
-  font-size: 25px;
+  color: #333;
+  font-size: 26px;
   text-align: center;
   font-family: Times New Roman;
   padding: 10px 18px;
@@ -54,20 +55,22 @@ h2 {
   margin-bottom: 30px;
   border: 50px;
   border-radius: 25px;
-  background: linear-gradient(to bottom, rgba(211, 211, 211, 0.6) -0.01%, rgba(211, 211, 211, 0.1) 100%);
+  background: #62d1a6;
 }
 
+
+/*** Citation ***/
 .goodie {
-  color: lightgray;
+  color: #333;
   font-size: 20px;
   text-align: center;
   padding: 20px 18px;
-  margin-top: 25px;
-  margin-bottom: 45px;
+  margin-top: 70px;
+  margin-bottom: 0px;
 }
 
 .goodiex {
-  color: lightgray;
+  color: #333;
   font-size: 22px;
   text-align: center;
   padding: 20px 18px;
@@ -76,7 +79,8 @@ h2 {
 }
 
 button {
-  background-color: lightgray;
+  background-color: #62d1a6;
+  box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -91,9 +95,9 @@ button {
 }
 
 .foot {
-  color: white;
+  color: #333;
   text-align: center;
-  background: linear-gradient(to bottom, lightgray -0.15%, rgba(211, 211, 211, 0.1) 100%);
+  background: #62d1a6;
   font-size: 1em;
   padding: 20px;
   margin-top: 0;
@@ -102,7 +106,6 @@ button {
 }
 
 .lire {
-  display: block;
   margin-top: 0;
   font-weight: bold;
   color: #333;
@@ -110,8 +113,12 @@ button {
   margin-bottom: 120px;
 }
 
+.lire button:hover {
+  background-color: lightgray;
+}
+
 .art {
-  color: white;
+  color: #333;
   font-size: 30px;
   text-align: center;
   font-family: Times New Roman;
@@ -120,14 +127,14 @@ button {
 }
 
 small {
-  color: #1f6249;
+  color: white;
   display: block;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .apercu {
-  background-color: lightgray;
+  background-color: #62d1a6;
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 25px;
@@ -140,6 +147,7 @@ small {
   font-size: 20px;
 }
 
+/*** Le bouton lire la suite ***/
 .lirex {
   display: block;
   margin-top: 0;
@@ -150,6 +158,8 @@ small {
   text-align: center;
 }
 
+
+/*** LE BOUTON PAS ENCORE DISPO ***/
 .lirexe {
   display: block;
   margin-top: 0;
@@ -161,7 +171,7 @@ small {
 }
 
 .goodietu {
-  color: lightgray;
+  color: #333;
   text-align: justify;
   font-size: 18px;
   padding: 15px;
@@ -175,10 +185,12 @@ small {
   font-size: 3.5em;       /* la taille de la première lettre */
   line-height: 1;       /* ajustement vertical */
   margin-right: 12px;    /* espace entre la lettrine et le texte */
-  color: lightgray;       /* couleur de la lettrine */
+  color: #62d1a6;       /* couleur de la lettrine */
   font-weight: bold;
   font-family: Times New Roman;
 }
+
+/*** les icônes de réseaux sociaux ***/
 
 .social-icons {
   display: flex;            /* active le mode flexbox */
@@ -189,36 +201,75 @@ small {
 
 .social-icons i {
   font-size: 30px;
-  color: lightgray;
+  color: #333;
   transition: transform 0.3s, color 0.3s;
 }
 
 .social-icons i:hover {
-  color: lightgray;
+  color: #333;
   transform: scale(1.2);  /* petit effet au survol */
+  background-color: lightgray;
 }
 
 i.fab {
-  color: lightgray;   /* couleur WhatsApp */
+  color: #62d1a6;   /* couleur WhatsApp */
   font-size: 32px;   /* taille de l’icône */
   margin: 35px 10px;    /* espacement horizontal */
   margin-bottom: -6px;
   cursor: pointer;
 }
 
+.fa-user {
+  color: #62d1a6;
+  font-size: 30px;
+  display: block;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 10;
+  position: absolute;
+  margin: -35px -80px;
+  margin-left: 300px;
+}
+
+.fa-user:hover {
+  transform: scale(1.1);  /* petit effet au survol */
+  background-color: lightgray;
+  box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
+}
+
+.fa-house {
+  color: #62d1a6;
+  font-size: 30px;
+}
+
+.fa-house:hover {
+  transform: scale(1.1);  /* petit effet au survol */
+  background-color: lightgray;
+  box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
+}
+
+
+
+
+/*** MY WATTPAD LOGO ***/
+
 .logo-wattpad {
-  width: 45px;
+  width: 35px;
   height: auto;
   transition: transform 0.2s;
   transition: transform 0.3s, color 0.3s;
   margin: 26px 8px;
   margin-top: 0 auto;
+  box-shadow: none;
+  background-color: #62d1a6;
 }
 
 .logo-wattpad:hover {
   transform: scale(1.2);
+  background-color: lightgray;
 }
 
+/*** les boutons de réactions ***/
 
 .reactions {
   margin-top: 10px;
@@ -228,7 +279,7 @@ i.fab {
 }
 
 .reactions button {
-  background-color: lightgray;
+  background-color: #62d1a6;
   color: #333;
   margin-bottom: 8px;
   border: none;
@@ -246,36 +297,43 @@ i.fab {
 
 .azert {
   border-radius: 25px;
-  background: linear-gradient(to bottom, lightgray -0.15%, rgba(211, 211, 211, 0.1) 100%);
+  background: #62d1a6;
   padding: 20px 18px;
   width: 90%;
   max-width: 600px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
-  color: white;
+  color: #333;
 }
 
 .butom {
   margin-top: 10px;
   width: 90px auto;
-  background: #1f6249; /** couleur du bouton j'ai payé **/
+  background: #62d1a6; /** couleur du bouton j'ai payé **/
   border: none;
   padding: 18px 16px;
-  color: white;
+  color: #333;
   font-weight: bold;
-  border-radius: 19px;
+  font-size: 20px;
+  border-radius: 23px;
   cursor: pointer;
   margin-top: 10px;
+  box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
+}
+
+.butom:hover {
+  background-color: lightgray;
 }
 
 .tem {
-  color: white;
+  color: #333;
+  font-size: 24px;
 }
 
 .arte {
   font-family: "Times New Roman", sans-serif;
-  color: lightgray;
+  color: #333;
   text-align: center;
   margin: 0;
   justify-content: center;
@@ -286,7 +344,7 @@ i.fab {
 
 .artey {
   font-family: "Times New Roman", sans-serif;
-  color: lightgray;
+  color: #333;
   text-align: center;
   font-size: 20px;
   padding: 20px 18px;
@@ -295,9 +353,99 @@ i.fab {
 }
 
 img {
-      width: 200px;
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
-      border-radius: 30px 0 30px 0;
-    }
+  width: 200px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px 0 30px 0;
+}
+
+.logo {
+  width: 115px;
+  max-width: 100%;
+  display: block;
+  box-shadow: none
+  ;
+  margin: 0 auto;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.logo2 {
+  width: 200px;
+  max-width: 100%;
+  display: block;
+  box-shadow: none
+  ;
+  margin: 0 auto;
+  border-radius: 12px 12px 12px 12px;
+}
+
+
+/***** l'image carrousel auto ****/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* modifie la taille de l'image */
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  border-radius: 24px 24px 24px 24px;
+  box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 325px;
+}
+
+/* Caption text */
+.text {
+  color: #333;
+  font-size: 18px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 10px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #62d1a6;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.8s;
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
