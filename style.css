@@ -17,12 +17,12 @@ h2 {
   color: #333;
   text-align: center;
   font-size: 25px;
-  font-family: Times New Roman;
+  font-family: "Playfair Display";
 }
 
 .indo {
   margin-bottom: 20px;
-  font-family: Times New Roman;
+  font-family: "Times New Roman;
   font-size: 20px;
   line-height: 1.3;
   padding: 30px 45px;
@@ -35,7 +35,7 @@ h2 {
   color: #333;
   font-size: 25px;
   text-align: center;
-  font-family: Times New Roman;
+  font-family: "Playfair Display";
   padding: 10px 18px;
   margin-bottom: 30px;
   border: 50px;
@@ -48,7 +48,7 @@ h2 {
   color: #333;
   font-size: 26px;
   text-align: center;
-  font-family: Times New Roman;
+  font-family: "Playfair Display";
   padding: 10px 18px;
   margin: 0;
   margin-top: 0px;
@@ -76,6 +76,7 @@ h2 {
   padding: 20px 18px;
   margin-top: -20px;
   margin-bottom: 30px;
+  font-family: "Times New Roman";
 }
 
 button {
@@ -92,6 +93,7 @@ button {
   color: #333;
   margin-top: 29px;
   margin-bottom: 5px;
+  font-family: "Playfair Display";
 }
 
 .foot {
@@ -121,7 +123,7 @@ button {
   color: #333;
   font-size: 30px;
   text-align: center;
-  font-family: Times New Roman;
+  font-family: "Playfair Display";
   padding: 10px 18px;
   margin-bottom: 30px;
 }
@@ -138,6 +140,7 @@ small {
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 25px;
+  font-family: "Playfair Display";
   color: #333;
 }
 
@@ -158,6 +161,22 @@ small {
   text-align: center;
 }
 
+/** les affiches roman **/
+.flex-container {
+  display: flex;
+  justify-content: center; /* espace entre les éléments */
+  align-items: center; /* aligne verticalement au centre */
+  flex-wrap: wrap;
+  
+}
+
+.flex-container img {
+  width: 78%; /* ajuste pour qu'elles rentrent dans le conteneur */
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 38px;
+}
 
 /*** LE BOUTON PAS ENCORE DISPO ***/
 .lirexe {
@@ -178,6 +197,7 @@ small {
   margin: 0 auto;
   max-width: 300px;
   line-height: 1.6;
+  font-family: "Times New Roman";
 }
 
 .lettrine {
@@ -187,7 +207,7 @@ small {
   margin-right: 12px;    /* espace entre la lettrine et le texte */
   color: #62d1a6;       /* couleur de la lettrine */
   font-weight: bold;
-  font-family: Times New Roman;
+  font-family: "Playfair Display";
 }
 
 /*** les icônes de réseaux sociaux ***/
@@ -235,6 +255,7 @@ i.fab {
   transform: scale(1.1);  /* petit effet au survol */
   background-color: lightgray;
   box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
+  
 }
 
 .fa-house {
@@ -320,6 +341,7 @@ i.fab {
   cursor: pointer;
   margin-top: 10px;
   box-shadow: 2px 10px 15px rgba(1, 1, 1, 0.3);
+  font-family: "Playfair Display";
 }
 
 .butom:hover {
@@ -343,7 +365,7 @@ i.fab {
 }
 
 .artey {
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Times New Roman", serif;
   color: #333;
   text-align: center;
   font-size: 20px;
@@ -417,6 +439,7 @@ img {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: "Playfair Display";
 }
 
 /* The dots/bullets/indicators */
